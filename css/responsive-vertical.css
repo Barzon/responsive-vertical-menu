@@ -1,0 +1,70 @@
+@import url('responsive-vertical-color.css');
+@font-face {
+    font-family: Nunito;
+    src: url('../fonts/Nunito-Regular.ttf');    
+}
+/*Basic reset*/
+#accordian * { margin:0; padding:0;}
+#accordian {    
+    font-family: Nunito, sans-serif, arial;
+    margin: 0;        
+    /*Some cool shadow and glow effect*/
+    box-shadow: 
+        0 5px 15px 1px rgba(0, 0, 0, 0.6), 
+        0 0 200px 1px rgba(255, 255, 255, 0.5);
+}
+/*heading styles*/
+#accordian h3, #accordian h4 {
+    padding: 0 10px;
+    margin:0;
+    cursor: pointer;
+}
+#accordian h4 {
+    padding: 0 20px;
+    margin:0;
+    cursor: pointer;
+}
+/*heading hover effect*/
+#accordian h3:hover, #accordian h4:hover  {
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.7);
+}
+/*iconfont styles*/
+#accordian h3 span {
+    font-size: 16px;
+    margin-right: 10px;
+}
+/*list items*/
+#accordian li {
+    list-style-type: none;
+}
+/*links*/
+#accordian ul ul li a {
+    display: block;
+    padding: 0 15px;
+    /*transition for smooth hover animation*/
+    transition: all 0.15s;
+}
+#accordian ul ul ul li a {
+    display: block;
+    padding: 0 15px;
+    /*transition for smooth hover animation*/
+    transition: all 0.15s;
+    margin-left:15px;
+}
+/*hover effect on links*/
+#accordian ul ul li a:hover {
+    background: #333;
+    border-left: 5px solid lightgreen;
+}
+#accordian ul ul ul li a:hover {
+    background: #333;
+    border-left: 5px solid lightgreen;
+    margin-left:15px;
+}
+/*Lets hide the non active LIs by default*/
+#accordian ul ul {
+    display: none;
+}
+#accordian li.active ul {
+    display: block;
+}

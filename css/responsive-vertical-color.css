@@ -1,0 +1,43 @@
+#accordian {
+	background:#eb9316;
+        background: -webkit-linear-gradient(left, #eb9316, #ffa804); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #eb9316, #ffa804); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #eb9316, #ffa804); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right,#eb9316, #ffa804);
+	color:white;
+}
+#accordian h3 {
+	font-size: 12px;
+        font-weight: bold;
+	line-height: 40px;
+	/*fallback for browsers not supporting gradients*/
+	background: #ffa700;
+        background: -webkit-linear-gradient(left top, #ffa700, #ffcc00); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #ffa700, #ffcc00); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #ffa700, #ffcc00); /* For Firefox 3.6 to 15 */        
+        background: linear-gradient(to bottom right, #ffa700, #ffcc00);
+        
+}
+#accordian h4 {
+	font-size: 11px;
+        font-weight: bold;
+	line-height: 38px;
+        margin-left:15px;
+	/*fallback for browsers not supporting gradients*/
+	background: #ffa700;
+        background: -webkit-linear-gradient(left top, #ffa700, #f9c700); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #ffa700, #f9c700); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #ffa700, #f9c700); /* For Firefox 3.6 to 15 */        
+        background: linear-gradient(to bottom right, #ffa700, #f9c700);
+        
+}
+#accordian ul ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 11px;
+	line-height: 27px;
+}
+
+
+
+
